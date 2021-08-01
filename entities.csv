@@ -1,0 +1,7 @@
+contatos,email,"/\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\.)+[A-Za-z]{2,}(\.[A-Za-z]{2})?\b/"
+cursos,Big Data,Big Data,Big,Data,BD,Bigdata
+cursos,IA,Inteligência Artificial,IA,AI,Int. Art.,Inteligência,Artificial,Int Arti
+nao,não,n,não,no,nem,não é,isso não
+semestre,2°,/(segundo)(\s*sem.*)?/,/(2°?\s?)(\s*sem.*)?/
+semestre,1°,/(1º?\s?)(sem.*)?/,/(primeiro)(\s*sem.*)?/,/primeiro/
+sim,sim,s,yes,ok,isso,sim,é isso,tá certo

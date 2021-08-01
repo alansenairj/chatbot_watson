@@ -1,0 +1,27 @@
+{
+  "locale": "pt-br",
+  "actions": [
+    {
+      "description": "Watson Assistant para Google Assistant",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "Watson"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN",
+        "trigger": {
+          "queryPatterns": [
+            "Falar com"
+          ]
+        }
+      }
+    }
+  ],
+  "conversations": {
+    "Watson": {
+      "name": "Watson",
+      "url": "https://eaa360b76360.ngrok.io",
+      "fulfillmentApiVersion": 2
+    }
+  }
+}
